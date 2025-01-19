@@ -4,8 +4,8 @@ import click
 import os
 
 
-from deblurgan.model import generator_model
-from deblurgan.utils import load_image, deprocess_image, preprocess_image
+from .model import generator_model
+from .utils import load_image, deprocess_image, preprocess_image
 
 
 def deblur(weight_path, input_dir, output_dir):
